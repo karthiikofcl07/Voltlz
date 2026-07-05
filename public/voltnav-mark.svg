@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VoltNav mark">
+  <defs><linearGradient id="g" x1="9" x2="54" y1="6" y2="60"><stop stop-color="#4cc9ff"/><stop offset=".52" stop-color="#36f69a"/><stop offset="1" stop-color="#2777ff"/></linearGradient></defs>
+  <rect width="64" height="64" rx="18" fill="#061014"/>
+  <path fill="url(#g)" d="M35.6 4.5 13.1 36.3h15.2L23.8 60l27.1-36.7H35.1l.5-18.8Z"/>
+</svg>

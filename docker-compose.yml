@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - JWT_SECRET=replace-with-a-long-random-secret
+    volumes:
+      - ./backend/voltnav.sqlite3:/app/backend/voltnav.sqlite3

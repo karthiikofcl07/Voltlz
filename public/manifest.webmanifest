@@ -1,0 +1,16 @@
+{
+  "name": "VoltNav 2.0",
+  "short_name": "VoltNav",
+  "description": "AI-powered EV trip planner and charging optimization platform.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#061014",
+  "theme_color": "#061014",
+  "icons": [
+    {
+      "src": "/voltnav-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "voltnav-2",
+  "version": "2.0.0",
+  "private": true,
+  "description": "VoltNav 2.0 - AI-powered EV trip planner and charging optimization platform.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "vite --host 0.0.0.0 --port 3000",
+    "dev:api": "python3 -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3000",
+    "test:api": "python3 -m backend.app.tests"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "chart.js": "^4.5.1",
+    "framer-motion": "^12.23.26",
+    "leaflet": "^1.9.4",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.10.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "vite": "^7.2.7"
+  }
+}
